@@ -1,11 +1,10 @@
-/* Resetowanie marginesów i paddingu */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Ustawienie ogólnych stylów na stronie */
 html, body {
   height: 100%;
   width: 100%;
@@ -14,7 +13,6 @@ html, body {
   color: #333;
 }
 
-/* Kontener główny */
 .box {
   width: 100%;
   min-height: 100vh;
@@ -22,21 +20,18 @@ html, body {
   position: relative;
 }
 
-/* Grupy, które są używane do układania */
 .box .group,
 .box .overlap-group {
   width: 100%;
   position: relative;
 }
 
-/* Maskowanie */
 .box .mask-group {
   width: 100%;
   height: auto;
   margin: 0 auto;
 }
 
-/* Ikony w prawym górnym rogu */
 .box .shopping-cart,
 .box .heart,
 .box .log-in {
@@ -50,7 +45,6 @@ html, body {
 .box .heart { right: 156px; }
 .box .log-in { right: 240px; }
 
-/* Obrazek na górze */
 .box .image-removebg {
   width: 288px;
   height: 223px;
@@ -60,7 +54,6 @@ html, body {
   object-fit: contain;
 }
 
-/* Tekst na stronie */
 .box .text-wrapper,
 .box .div,
 .box .text-wrapper-2 {
@@ -76,7 +69,6 @@ html, body {
 .box .div { right: 170px; }
 .box .text-wrapper-2 { right: 93px; }
 
-/* Nagłówek formularza */
 h2 {
   text-align: center;
   color: #6030b9;
@@ -84,7 +76,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Przycisk formularza */
 button[type="submit"] {
   width: 100%;
   padding: 14px;
@@ -101,7 +92,6 @@ button[type="submit"]:hover {
   background-color: #4a27a2;
 }
 
-/* Wyszukiwarka */
 .box .search {
   display: flex;
   width: 289px;
@@ -126,7 +116,6 @@ button[type="submit"]:hover {
   font-size: 16px;
 }
 
-/* Sekcja z produktami */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -135,7 +124,6 @@ button[type="submit"]:hover {
   margin-top: 20px;
 }
 
-/* Karty z produktami */
 .box .product-info-card,
 .box .product-info-card-2,
 .box .product-info-card-3,
@@ -149,7 +137,6 @@ button[type="submit"]:hover {
   border-radius: 8px;
 }
 
-/* Obrazki produktów */
 .box .image-2 {
   width: 100%;
   height: 220px;
@@ -158,7 +145,6 @@ button[type="submit"]:hover {
   margin-bottom: 12px;
 }
 
-/* Sekcje tekstowe */
 .box .body,
 .box .body-2 {
   display: flex;
@@ -180,7 +166,6 @@ button[type="submit"]:hover {
   font-size: 14px;
 }
 
-/* Prostokąty w sekcji */
 .box .rectangle-2,
 .box .rectangle-3 {
   width: 100%;
@@ -190,7 +175,6 @@ button[type="submit"]:hover {
   margin: 20px 0;
 }
 
-/* Stopka */
 .box .footer {
   display: flex;
   flex-wrap: wrap;
@@ -202,14 +186,12 @@ button[type="submit"]:hover {
   margin-top: 40px;
 }
 
-/* Obrazek w stopce */
 .box .image-removebg-2 {
   width: 266px;
   height: auto;
   margin-top: 20px;
 }
 
-/* Formularz rejestracji */
 .container {
   background-color: #ffffff;
   padding: 30px;
