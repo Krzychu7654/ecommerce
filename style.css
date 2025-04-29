@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Inter', sans-serif; /* Domyślna czcionka dla całej strony */
+  font-family: 'Inter', sans-serif; 
 }
 
 .box {
