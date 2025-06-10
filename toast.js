@@ -20,7 +20,7 @@ function showToast(message) {
   }, 2000);
 }
 
-// nasłuchiwanie na iframe odpowiedzi z koszyk.php
+
 window.addEventListener('message', function(e) {
   if (e.data === 'added-to-cart') {
     showToast('✅ Dodano do koszyka');
