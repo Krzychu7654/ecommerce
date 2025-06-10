@@ -65,13 +65,7 @@
 </head>
 <body>
   <h2>🛒 Twój koszyk</h2>
-  <?php if (!empty($_SESSION['cart'])): ?>
-    <ul class="cart-list">
-      <?php 
-        $total = 0;
-        foreach ($_SESSION['cart'] as $index => $item): 
-          $total += $item['price'];
-      ?>
+  
         <li class="cart-item">
           <div class="cart-details">
             <strong><?= htmlspecialchars($item['name']) ?></strong><br>
@@ -85,9 +79,6 @@
       <?php endforeach; ?>
     </ul>
     <p class="total">Łączna kwota: <?= number_format($total, 2) ?> zł</p>
-  <?php else: ?>
-    <p style="text-align:center;">Koszyk jest pusty.</p>
-  <?php endif; ?>
   <div class="back-link">
     <a href="index.html">⟵ Powrót do sklepu</a>
   </div>
